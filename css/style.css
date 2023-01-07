@@ -64,7 +64,8 @@ banner start
     width: 50%;
     height: 100%;
     /* background-color: red; */
-    text-align: left;
+    text-align: right;
+    align-items: flex-end;
 }
 
 .banner-bg .banner .banner-main-text .banner-head {
@@ -73,10 +74,10 @@ banner start
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: left;
+    text-align: right;
     color: #FFFFFF;
     margin-top: 216px;
-    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .banner-bg .banner .banner-main-text .banner-text {
@@ -86,10 +87,10 @@ banner start
     font-size: 16px;
     line-height: 26px;
     /* or 162% */
-    text-align: left;
+    text-align: right;
     color: #FFFFFF;
     margin-top: 24px;
-    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .banner-bg .banner .banner-main-text .banner-btn .btn {
