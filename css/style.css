@@ -1,0 +1,599 @@
+/* ===============
+common css start
+================ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* ===============
+common css start
+================ */
+
+
+/* ================
+banner start
+================= */
+
+.banner-bg {
+    background: url('../images/banner3.png') no-repeat center / cover;
+    width: 100%;
+    height: 808px;
+    background-attachment: fixed;
+    margin-bottom: 131px;
+}
+
+.banner-bg .banner {
+    display: flex;
+}
+
+.banner-bg .banner .banner-gap {
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.banner-bg .banner .banner-main-text {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    text-align: left;
+}
+
+.banner-bg .banner .banner-main-text .banner-head {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 216px;
+    padding-right: 200px;
+}
+
+.banner-bg .banner .banner-main-text .banner-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 24px;
+    padding-right: 300px;
+}
+
+.banner-bg .banner .banner-main-text .banner-btn .btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #005FAC;
+    border: none;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 32px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner-bg .banner .banner-main-text .banner-btn .btn:hover {
+    color: #FFFFFF;
+    background: #005FAC;
+}
+
+
+/* ================
+banner ends
+================= */
+
+
+/* =================
+about me start
+================== */
+
+.about-bg {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 131px;
+    /* background-color: aqua; */
+}
+
+.about-bg .about {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 130px; */
+}
+
+.about-bg .about .about-pic {
+    width: 50%;
+    height: 100%;
+}
+
+.about-bg .about .about-pic img {
+    width: 450PX;
+    height: 500PX;
+}
+
+.about-bg .about .about-text {
+    text-align: center;
+}
+
+.about-bg .about .about-text .about-text1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 76px;
+    /* text-align: left; */
+    color: #005FAC;
+    /* margin-top: 216px;
+    padding-right: 200px; */
+    /* padding-top: 30px; */
+    text-transform: capitalize;
+}
+
+.about-bg .about .about-text .about-para {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    /* text-align: left; */
+    color: #222;
+    /* margin-top: 24px;
+    padding-right: 300px; */
+    padding: 30px 110px;
+    text-transform: capitalize;
+}
+
+.about-bg .about .about-text .about-btn {
+    align-items: center;
+}
+
+.about-bg .about .about-text .about-btn .btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    background: #005FAC;
+    border: none;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.about-bg .about .about-text .about-btn .btn:hover {
+    color: #005FAC;
+    background: #e4e4ff;
+}
+
+
+/* =================
+about me ends
+================== */
+
+
+/* =================
+work start
+================== */
+
+.work-bg {
+    /* margin-top: 131px; */
+    width: 100%;
+    height: 723px;
+    /* background-color: aqua; */
+}
+
+.work-bg .work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-bg .work .work-pic {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.work-bg .work .work-pic img {
+    width: 569px;
+    height: 723px;
+}
+
+.work-bg .work .work-text {
+    width: 50%;
+    height: 100%;
+}
+
+.work-bg .work .work-text .work-hade {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* Dark 01 */
+    color: #151414;
+    margin-top: 240px;
+    padding-right: 360px;
+}
+
+.work-bg .work .work-text .work-para {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    /* Dark 02 */
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-right: 369px;
+}
+
+.work-bg .work .work-text ul .work-para2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    /* Dark 02 */
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.work-bg .work .work-text ul .work-para2 i {
+    color: greenyellow;
+}
+
+
+/* =================
+work ends
+================== */
+
+
+/* =================
+plane start
+================== */
+
+.plane-bg {
+    margin-top: 130px;
+}
+
+.plane-bg .plane {
+    height: 310px;
+}
+
+.plane-bg .plane .plane-hade {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.plane-bg .plane .plane-hade .plane-ha {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    text-align: center;
+    /* Dark 01 */
+    color: #151414;
+    /* margin-bottom: 50px; */
+}
+
+.plane-bg .plane .plane-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plane-bg .plane .plane-text .my-plane {
+    text-align: center;
+}
+
+.plane-bg .plane .plane-text .my-plane h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    /* Dark 01 */
+    color: #151414;
+}
+
+.plane-bg .plane .plane-text .my-plane p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    /* Dark 03 */
+    color: #737272;
+}
+
+
+/* =================
+plane ends
+================== */
+
+
+/* =================
+call me start
+================== */
+
+.call-bg {
+    margin-top: 124px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 130px;
+}
+
+.call-bg .call {
+    background: linear-gradient(90deg, rgba(0, 95, 172, 1) 0%, rgba(0, 95, 172, 0.5634628851540616) 46%, rgba(0, 0, 0, 0) 100%), url('../images/watch.png') no-repeat center / cover;
+    height: 100%;
+}
+
+.call-bg .call .call-text {
+    margin-left: 64px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    /* margin-top: 59px; */
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.call-bg .call .call-text .call-btn {
+    /* margin-top: 24px; */
+    /* margin-top: 100px; */
+}
+
+.call-bg .call .call-btn .btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #005FAC;
+    background: #FFFFFF;
+    border: none;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 1px solid #005FAC;
+    margin-left: 64px;
+}
+
+.call-bg .call .call-btn .btn:hover {
+    color: #FFFFFF;
+    background-color: #005FAC;
+    border: 1px solid #FFFFFF;
+}
+
+
+/* =================
+call me ends
+================== */
+
+
+/* =================
+footer start
+================== */
+
+.footer-bg {
+    width: 100%;
+    height: 577px;
+    background: #151414;
+}
+
+.footer-bg .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bg .footer .footer-text {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+.footer-bg .footer .footer-text h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    color: #F8F8F8;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    /* padding-right: 320px; */
+}
+
+.footer-bg .footer .footer-text .text3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    padding-right: 320px;
+}
+
+.footer-bg .footer .footer-text .footer-img {
+    margin-top: 50px;
+}
+
+.footer-bg .footer .footer-text .footer-img img {
+    margin-right: 15px;
+}
+
+.footer-bg .footer .footer-form {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+.footer-bg .footer .footer-form .form-head {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+.footer-bg .footer .footer-form .email {
+    width: 320px;
+    height: 50px;
+}
+
+.footer-bg .footer .footer-form .email input {
+    width: 370px;
+    height: 50px;
+    border: 1px solid #ffff;
+    color: #F3F3F3;
+    background-color: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* Dark 07 */
+    margin-top: 31px;
+    padding-left: 20px;
+}
+
+.footer-bg .footer .footer-form .form-btn {
+    margin-top: 20px;
+}
+
+.footer-bg .footer .footer-form .form-btn .btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #F8F8F8;
+    background-color: #005FAC;
+    border: none;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 32px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-bg .footer .footer-form .form-btn .btn:hover {
+    color: #005FAC;
+    background-color: #F8F8F8;
+}
+
+
+/* =================
+footer ends
+================== */
